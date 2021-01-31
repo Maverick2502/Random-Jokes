@@ -22,14 +22,15 @@ const getDadJoke = async () => {
 
 button.addEventListener("click", addNewJoke);
 
-jokes.addEventListener("click", function(e) {
-    e.target.remove();
-});
-
 button.addEventListener("click", () => {
   img.classList.add("shake-img");
 
   setTimeout(() => {
     img.classList.remove("shake-img");
   }, 1000);
-}) 
+
+});
+
+jokes.addEventListener("click", (e) => {
+    e.target.remove();
+});
