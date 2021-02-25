@@ -17,6 +17,6 @@ Axios - Promise based HTTP client for the browser *
 
 # Screenshots
 
-*Feel free to fork and play around*
+*Feel free to clone and play around*
 
 ![](screenshots/random-joke.jpg)
